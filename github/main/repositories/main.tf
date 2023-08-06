@@ -34,6 +34,15 @@ locals {
         "terraform-fmt / lint",
       ]
     },
+    "terragrunt-labs" = {
+      protected_branch = "main"
+      visibility       = "public"
+      license          = "mit"
+      required_status_checks = [
+        "terragrunt-hclfmt / lint",
+        "terraform-fmt / lint",
+      ]
+    },
     "dotfiles" = {
       protected_branch       = "main"
       visibility             = "public"

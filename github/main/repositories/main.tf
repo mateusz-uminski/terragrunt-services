@@ -55,12 +55,6 @@ locals {
       license                = "mit"
       required_status_checks = []
     },
-    "pre-commit-hooks" = {
-      protected_branch       = "main"
-      visibility             = "public"
-      license                = "mit"
-      required_status_checks = []
-    },
     "dockerfiles" = {
       protected_branch       = "main"
       visibility             = "public"

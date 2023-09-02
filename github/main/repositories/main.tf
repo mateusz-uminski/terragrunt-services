@@ -49,7 +49,7 @@ locals {
       license                = "mit"
       required_status_checks = []
     },
-    "github-actions-shared-workflows" = {
+    "github-actions" = {
       protected_branch       = "main"
       visibility             = "public"
       license                = "mit"

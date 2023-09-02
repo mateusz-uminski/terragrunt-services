@@ -61,6 +61,12 @@ locals {
       license                = "mit"
       required_status_checks = []
     },
+    "go-simple-blockchain" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
   }
 }
 

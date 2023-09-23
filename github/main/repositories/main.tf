@@ -61,6 +61,18 @@ locals {
       license                = "mit"
       required_status_checks = []
     },
+    "packer-aws" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
+    "vagrant-virtualbox" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
     "go-simple-blockchain" = {
       protected_branch       = "main"
       visibility             = "public"

@@ -17,7 +17,7 @@ locals {
         "terraform-fmt / lint",
       ]
     },
-    "terragrunt-aws-infrastructures" = {
+    "terragrunt-aws-organization" = {
       protected_branch = "main"
       visibility       = "public"
       license          = "mit"

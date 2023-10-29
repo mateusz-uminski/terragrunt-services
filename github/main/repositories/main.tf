@@ -43,6 +43,18 @@ locals {
         "terraform-fmt / lint",
       ]
     },
+    "ansible-roles" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
+    "ansible-playbooks" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
     "dotfiles" = {
       protected_branch       = "main"
       visibility             = "public"
@@ -73,7 +85,19 @@ locals {
       license                = "mit"
       required_status_checks = []
     },
+    "network-labs" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
     "go-simple-blockchain" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
+    "simple-static-website" = {
       protected_branch       = "main"
       visibility             = "public"
       license                = "mit"

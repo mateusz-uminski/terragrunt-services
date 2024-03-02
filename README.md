@@ -9,18 +9,21 @@ Enjoy!
 <br><br>
 Terragrunt uses terraform modules from this repository: [terraform-service-modules](https://github.com/mateusz-uminski/terraform-service-modules)
 
+
 # Requirements
 1. Terraform version ~> 1.3.3
 2. Terragrunt version ~> 0.39.2
 3. An AWS Account
+
 
 # Prerequisites
 0. Create `config.yaml` file in the project's root directory according to the `example-config.yaml`.
 1. Get AWS profiles from `service.hcl` files.
 1. Update your `~/.aws/credentials` and `~/.aws/config` files.
 
+
 # Project structure
-The code in this repo uses the following project structure ():
+The repository has the following structure:
 ```
 |
 | service-name/

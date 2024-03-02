@@ -107,7 +107,7 @@ locals {
 }
 
 module "repository" {
-  source = "github.com/mateusz-uminski/terraform-service-modules//github-repository?ref=github-repository-v0.1.0"
+  source = "github.com/mateusz-uminski/terraform-service-modules//github-repository?ref=github-repository-v0.2.0"
 
   for_each = local.repositories
 

@@ -80,10 +80,12 @@ locals {
       required_status_checks = []
     },
     "vagrant-virtualbox" = {
-      protected_branch       = "main"
-      visibility             = "public"
-      license                = "mit"
-      required_status_checks = []
+      protected_branch = "main"
+      visibility       = "public"
+      license          = "mit"
+      required_status_checks = [
+        "vagrant-validate / lint",
+      ]
     },
     "network-labs" = {
       protected_branch       = "main"

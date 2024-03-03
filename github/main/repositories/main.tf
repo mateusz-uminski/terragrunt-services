@@ -68,10 +68,12 @@ locals {
       required_status_checks = []
     },
     "dockerfiles" = {
-      protected_branch       = "main"
-      visibility             = "public"
-      license                = "mit"
-      required_status_checks = []
+      protected_branch = "main"
+      visibility       = "public"
+      license          = "mit"
+      required_status_checks = [
+        "results"
+      ]
     },
     "packer-aws" = {
       protected_branch       = "main"

@@ -44,10 +44,15 @@ locals {
       ]
     },
     "ansible-roles" = {
-      protected_branch       = "main"
-      visibility             = "public"
-      license                = "mit"
-      required_status_checks = []
+      protected_branch = "main"
+      visibility       = "public"
+      license          = "mit"
+      required_status_checks = [
+        "yamllint / lint",
+        "ansible-lint / lint",
+        "python / flake8",
+        "results",
+      ]
     },
     "ansible-playbooks" = {
       protected_branch       = "main"
@@ -72,7 +77,7 @@ locals {
       visibility       = "public"
       license          = "mit"
       required_status_checks = [
-        "results"
+        "results",
       ]
     },
     "packer-aws" = {

@@ -34,11 +34,11 @@ remote_state {
   backend = "s3"
   config = {
     encrypt        = true
-    bucket         = "${local.service_name}-terragrunt-terraform-states"
+    bucket         = "${local.service_name}-state"
     key            = "${path_relative_to_include()}/terraform.tfstate"
     profile        = local.aws_profile
     region         = "us-east-1"
-    dynamodb_table = "${local.service_name}-terraform-locks"
+    dynamodb_table = "${local.service_name}-state-locks"
   }
   generate = {
     path      = "backend-gen.tf"

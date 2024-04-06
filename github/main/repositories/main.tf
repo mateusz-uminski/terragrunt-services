@@ -94,7 +94,13 @@ locals {
         "vagrant-validate / lint",
       ]
     },
-    "network-labs" = {
+    "linux-virtual-networking-lab" = {
+      protected_branch       = "main"
+      visibility             = "public"
+      license                = "mit"
+      required_status_checks = []
+    },
+    "bgp-lab" = {
       protected_branch       = "main"
       visibility             = "public"
       license                = "mit"

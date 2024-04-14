@@ -3,10 +3,9 @@
 [![verify](https://github.com/mateusz-uminski/terragrunt-services/actions/workflows/verify.yaml/badge.svg)](https://github.com/mateusz-uminski/terragrunt-services/actions/workflows/verify.yaml)
 
 This terragrunt code configures services that I use in my test environment to learn new things and verify crazy ideas. Besides the README.md further documentation can be found in commits, code comments and nested README files.
-<br><br>
-Feel free to explore and copy everything you want.
-Enjoy!
-<br><br>
+
+Feel free to explore and copy everything you want. Enjoy!
+
 Terragrunt uses terraform modules from this repository: [terraform-service-modules](https://github.com/mateusz-uminski/terraform-service-modules)
 
 

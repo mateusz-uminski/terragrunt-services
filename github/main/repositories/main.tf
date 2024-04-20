@@ -34,12 +34,11 @@ locals {
         "terraform-fmt / lint",
       ]
     },
-    "terragrunt-aws-sandbox" = {
+    "terraform-aws-sandbox" = {
       protected_branch = "main"
       visibility       = "public"
       license          = "mit"
       required_status_checks = [
-        "terragrunt-hclfmt / lint",
         "terraform-fmt / lint",
       ]
     },

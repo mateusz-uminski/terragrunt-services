@@ -49,7 +49,7 @@ locals {
       required_status_checks = [
         "yamllint / lint",
         "ansible-lint / lint",
-        "python / flake8",
+        "python-lint / flake8",
         "results",
       ]
     },

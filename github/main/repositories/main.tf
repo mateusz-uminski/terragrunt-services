@@ -42,7 +42,7 @@ locals {
         "terraform-fmt / lint",
       ]
     },
-    "ansible-roles" = {
+    "ansible-collections" = {
       protected_branch = "main"
       visibility       = "public"
       license          = "mit"
